@@ -105,8 +105,10 @@
     width: 90%;
     margin-left: 5%;
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 
   #apagaTudo {
@@ -257,11 +259,20 @@
     margin-right: 3%;
   }
 
+  #divFather {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
   #areabtn {
     width: 90%;
     margin-left: 5%;
     margin-bottom: 50px;
     margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   #apagaTudo {
@@ -311,3 +322,4 @@
     color: white;
     margin-top: 2px;
   }
+}
